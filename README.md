@@ -1,4 +1,5 @@
 Game of Life
+
 John Conway's game of Life, a Python learning exercise
 
 This version by Roland Waddilove as a learning Python exercise
