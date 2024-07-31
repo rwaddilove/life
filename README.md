@@ -10,24 +10,24 @@ Bug: I don't know why, but if you click the window close button on the opening s
 
 I've seen people ask how to pause/stop Python turtle, such as to wait for user input. Here I use:
 
-def mouseclick(x, y):   # wait for a mouseclick
+    def mouseclick(x, y):   # wait for a mouseclick
 
-    global waitclick
+        global waitclick
 
-    waitclick = False   # stop waiting for a click
+        waitclick = False   # stop waiting for a click
 
-.
+    .
 
-.
+    .
 
-turtle.Screen().onclick(mouseclick)  # wait for a mouse click
+    turtle.Screen().onclick(mouseclick)  # wait for a mouse click
 
-turtle.Screen().listen()
+    turtle.Screen().listen()
 
-waitclick = True
+    waitclick = True
 
-while waitclick:
+    while waitclick:
 
-    turtle.Screen().update()
+        turtle.Screen().update()
 
 Maybe it's this that is causing the problem. Click the screen and the app continues. Click the window close button and it hangs.
