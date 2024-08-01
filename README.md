@@ -1,11 +1,11 @@
 # Game of Life
 
-John Conway's game of Life, a Python learning exercise by Roland Waddilove. Original idea: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+John Conway's game of Life, a Python learning exercise by Roland Waddilove.
+Original idea: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
 ### Text vs GUI
 
 **Game of Life 8.py**: A text app that runs in the terminal window.
-
 **Game of Life 10 GUI.py**: Same code, but outputs to a Python Turtle graphical window.
 
 ### Help!
