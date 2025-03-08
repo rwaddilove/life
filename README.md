@@ -10,8 +10,6 @@ John Conway's game of Life - learning exercises by Roland Waddilove. Original id
 
 ### Java version of LIfe
 
-**LifeGame.java**
-
-I'm taking a break from Python to learn Java. Here is the Game of Life in Java. While writing it, I realised I was using a slow and cumbersome method in the Python version. This is a better version, at least until I update the Python version. (Not a priority.)
+**LifeGame.java**: I'm taking a break from Python to learn Java. Here is the Game of Life in Java. While writing it, I realised I was using a slow and cumbersome method in the Python version. This is a better version, at least until I update the Python version. (Not a priority.)
 
 Both are text-based and run in a terminal window. Both are source code, so load them into your favourite editor and run them from there.
