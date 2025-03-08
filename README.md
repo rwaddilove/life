@@ -1,28 +1,17 @@
 # Game of Life
 
-John Conway's game of Life, a Python learning exercise by Roland Waddilove. Original idea: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+John Conway's game of Life - learning exercises by Roland Waddilove. Original idea: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
-### Text vs GUI
+### Python versions of Life
 
 **Game of Life 8.py**: A text app that runs in the terminal window.
 
 **Game of Life 10 GUI.py**: Same code, but outputs to a Python Turtle graphical window.
 
-### Help!
+### Java version of LIfe
 
-**Bug**: I don't know why, but if you click the window close button on the opening screen, the app gets stuck and the window won't close. (You can force quit, but closing VS Code works too.) Click the window close button when the life sim is running and the app closes OK. Am I doing something or is this a turtle bug?
+**LifeGame.java**
 
-I've seen people ask how to pause/stop Python turtle, such as to wait for user input. Here I use:
+I'm taking a break from Python to learn Java. Here is the Game of Life in Java. While writing it, I realised I was using a slow and cumbersome method in the Python version. This is a better version, at least until I update the Python version. (Not a priority.)
 
-    def mouseclick(x, y):   # wait for a mouseclick
-        global waitclick
-        waitclick = False   # stop waiting for a click
-    .
-    .
-    turtle.Screen().onclick(mouseclick)  # wait for a mouse click
-    turtle.Screen().listen()
-    waitclick = True
-    while waitclick:
-        turtle.Screen().update()
-
-Maybe it's this that is causing the problem. Click the screen and the app continues. Click the window close button and it hangs.
+Both are text-based and run in a terminal window. Both are source code, so load them into your favourite editor and run them from there.
